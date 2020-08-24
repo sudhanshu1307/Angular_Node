@@ -1,14 +1,26 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { AppComponent } from './app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './header/header.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { FeaturedCourseComponent } from './featured-course/featured-course.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    CarouselComponent,
+    FeaturedCourseComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule,
+    BrowserAnimationsModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,9 @@
+.bg-color {
+    background-color: #0277BD;
+    height: 80px;
+}
+
+.part {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
