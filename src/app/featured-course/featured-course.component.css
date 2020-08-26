@@ -18,13 +18,40 @@ body {
     align-content: center;
 }
 
+.mt-4 {
+    margin-top: 3rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 2rem !important;
+}
+
+.topic-heading-style-index {
+    position: relative;
+}
+
+.topic-heading-style-index::after {
+        content: "";
+        width: 78px;
+        height: 2px;
+        background: #03a9f4;
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 50px;
+        top: 3.5rem;
+}
+
+
 .card-info {
     border-bottom: solid 3px #00bcd4;
     border-radius: 3px;
 }
 
 .card {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     box-shadow: 0 2px 2px 0 
         rgba(0,0,0,.14), 0 3px 1px -2px 
         rgba(0,0,0,.2), 0 1px 5px 0 
@@ -39,26 +66,10 @@ body {
     padding: 1rem;
 }
 
-
-.box {
-    position: relative;
-    max-width: 600px;
-    width: 544px;
-    height: 400px;
-    background: #fff;
-    box-shadow: 0 0 15px rgba(0,0,0,.1);
-    /* margin: 30px;
-    padding: 10px; */
-}
-
-/* .space {
-    padding: 30px;
-} */
-
 /* common */
-.ribbon {
-    width: 150px;
-    height: 150px;
+/* .ribbon {
+    width: 70px;
+    height: 69px;
     overflow: hidden;
     position: absolute;
 }
@@ -80,7 +91,34 @@ body {
     font: 700 11px/1 'Lato', sans-serif;
     text-transform: uppercase;
     text-align: center;
+} */
+
+/* top right*/
+/* .ribbon-top-right {
+  top: -15px;
+  right: -20px;
+  margin: 0;
 }
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+
+.ribbon-top-right span {
+  left: -25px;
+  top: 30px;
+  transform: rotate(50deg);
+} */
 
 img {
     width: 315.55px;
@@ -111,29 +149,26 @@ a:hover {
     margin-bottom: 10px;
 }
 
-  /* top right*/
-.ribbon-top-right {
-    top: -10px;
-    right: -10px;
-}
-.ribbon-top-right::before,
-.ribbon-top-right::after {
-    border-top-color: transparent;
-    border-right-color: transparent;
+.featured-courses-price-section {
+    height: 2rem;
 }
 
-.ribbon-top-right::before {
-    top: 0;
-    left: 0;
-}
-.ribbon-top-right::after {
-    bottom: 0;
-    right: 0;
+.m-0 {
+    margin: 0 !important;
 }
 
-.ribbon-top-right span {
-    left: -25px;
-    top: 30px;
-    transform: rotate(50deg);
+
+.btn.btn-danger.btn-raised {
+    color: #fff !important;
+    background-color: #f44336 !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
   

@@ -16,7 +16,7 @@ customOptions: OwlOptions = {
     touchDrag: true,
     pullDrag: false,
     dots: true,
-    navSpeed: 700,
+    navSpeed: 500,
     navText: ['', ''],
     responsive: {
       0: {
@@ -32,7 +32,7 @@ customOptions: OwlOptions = {
         items: 4
       }
     },
-    nav: true
+    nav: false
   }
 
   ngOnInit(): void {
