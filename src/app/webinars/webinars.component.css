@@ -5,6 +5,12 @@
     overflow: auto;
 }
 
+.bg-color-gray {
+    background-color: #f5f5f5;
+    color: #333232;
+    /* border: 1px solid black; */
+    overflow: auto;
+}
 
 .heading {
     font-size: 30px;
@@ -99,6 +105,15 @@
     padding: 1rem;
 }
 
+.card-custom {
+    box-shadow: 0 0 8px rgba(55,145,223,.15);
+    padding: 20px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .6s;
+    margin-top: 10px;
+}
+
 .pb-0 {
     padding-bottom: 0 !important;
 }
@@ -153,4 +168,66 @@ strong {
 
 .fs-14 {
     font-size: 14px;
+}
+
+.subcription-plan-logo {
+    width: 65px;
+    margin: auto;
+    margin-bottom: 22px;
+    margin-top: 10px;
+}
+
+.subcription-price {
+    position: relative;
+}
+
+.rupee {
+    position: relative;
+    top: -13px;
+    font-size: 2rem;
+    margin-right: 4px;
+    color: #37dfdf;
+}
+
+.price {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 14px 0;
+    margin: 20px 0 0;
+    text-transform: uppercase;
+    background: -webkit-gradient(linear,left top,right top,from(#37dfdf),to(#2180da));
+    background: linear-gradient(to right,#37dfdf 30%,#2180da 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.subcription-right-text-index {
+    font-size: 42px;
+    line-height: normal;
+    margin-top: 100px;
+    font-weight: 500
+}
+
+.view-webinars-plan-btn-index {
+    margin-top: 10px;
+    border: none;
+    font-size: 17px;
+    padding: 8px 40px;
+    border-radius: 5px;
+    color: #fff!important;
+    background: #dd574e!important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12)!important;
+}
+
+.ripple-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: inherit;
+    pointer-events: none;
 }
