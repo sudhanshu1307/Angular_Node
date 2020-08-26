@@ -1,0 +1,156 @@
+.bg-color {
+    background-color: #fff;
+    color: #333232;
+    /* border: 1px solid black; */
+    overflow: auto;
+}
+
+
+.heading {
+    font-size: 30px;
+    text-transform: uppercase;
+    display: grid;
+    text-align: center;
+    align-content: center;
+}
+
+.mt-1 {
+    margin-top: 1rem !important;
+}
+
+.mt-0{
+    margin-top: 0 !important;
+}
+
+.mb-1{
+    margin-bottom: .21rem !important;
+}
+
+.mt-4 {
+    margin-top: 3rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 2rem !important;
+}
+
+.topic-heading-style-index {
+    position: relative;
+}
+
+.topic-heading-style-index::after {
+        content: "";
+        width: 78px;
+        height: 2px;
+        background: #03a9f4;
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 50px;
+        top: 3.5rem;
+}
+
+.short-topic-heading-style {
+    border-bottom: 2px solid #8bd7f9;
+    overflow: hidden;
+}
+
+.short-topic-heading-style strong {
+    background: #1477bd;
+    color: #fff;
+    padding: 7px 20px 1px 15px;
+    position: relative;
+    font: 19px 'Roboto',sans-serif;
+}
+
+.short-topic-heading-style strong::before {
+    position: absolute;
+    content: "";
+    width: 187%;
+    height: 100%;
+    background: #1477bd;
+   
+    transform: rotate(45deg);
+}
+
+.card {
+    box-shadow: none;
+    box-shadow: 0 2px 2px 0 
+        rgba(0,0,0,.14), 
+        0 3px 1px -2px 
+        rgba(0,0,0,.2), 
+        0 1px 5px 0 
+        rgba(0,0,0,.12);
+    border-radius: 2px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    border: 0;
+}
+
+.card-dark {
+    border-bottom: solid 3px #424242;
+    border-radius: 3px;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #0277bd;
+    transition: all ease .1s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+strong {
+    font-size: 18px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.btn-style {
+    padding: 8px 30px;
+}
+
+.btn-danger {
+    color: #fff !important;
+    background-color: #f44336 !important;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.color-danger {
+    color: #f44336!important;
+}
+
+.fs-14 {
+    font-size: 14px;
+}

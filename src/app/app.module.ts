@@ -8,13 +8,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FeaturedCourseComponent } from './featured-course/featured-course.component';
+import { WebinarsComponent } from './webinars/webinars.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     CarouselComponent,
-    FeaturedCourseComponent
+    FeaturedCourseComponent,
+    WebinarsComponent
   ],
   imports: [
     BrowserModule,
