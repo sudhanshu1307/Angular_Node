@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FeaturedCourseComponent } from './featured-course/featured-course.component';
 import { WebinarsComponent } from './webinars/webinars.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { WebinarsComponent } from './webinars/webinars.component';
     HeaderComponent,
     CarouselComponent,
     FeaturedCourseComponent,
-    WebinarsComponent
+    WebinarsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

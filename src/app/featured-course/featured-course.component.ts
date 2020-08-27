@@ -16,6 +16,8 @@ customOptions: OwlOptions = {
     touchDrag: true,
     pullDrag: false,
     dots: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
     navSpeed: 500,
     navText: ['', ''],
     responsive: {
